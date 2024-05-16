@@ -1,6 +1,6 @@
 #include <iostream>
 #include "Card.h"
-extern int x;
+
 int main() {
     const int smallRoom = 25;
     const int largeRoom = 35;
@@ -13,7 +13,7 @@ int main() {
 
     std::cout << "How many small rooms do you want to clean: ";
     std::cin >> smallRoomsCleaning;
-    std::cout << "\nHow many large rooms do you want to clean: ";
+    std::cout << "How many large rooms do you want to clean: ";
     std::cin >> largeRoomsCleaning;
     std::cout << "===========================" << std::endl;
     std::cout << "Large rooms to clean: " << largeRoomsCleaning << std::endl;
